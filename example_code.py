@@ -15,7 +15,7 @@ existing configuration files
 
 class ClassNameInCapWords:
     """
-        This class contains several methods with their corresponding access 
+        This class contains several methods with their corresponding access
         permissions
     """
 
