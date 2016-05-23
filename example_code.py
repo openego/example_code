@@ -15,7 +15,8 @@ existing configuration files
 
 class ClassNameInCapWords:
     """
-        This class contains several methods with their corresponding access permissions
+        This class contains several methods with their corresponding access 
+        permissions
     """
 
     def __init__(self, public_property):
