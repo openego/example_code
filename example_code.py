@@ -34,20 +34,17 @@ class ClassNameInCapWords:
         """
             This method is accessible by everyone.
 
-            :param first_param: This is the first parameter. It will be used for
-                for some purpose.
+            Parameters
+            ----------
+            first_param : string
+                This is the first parameter. It will be used for some purpose.
 
-            :type first_param: string
+            second_param : int
+                The second parameter will be used for some other purpose
 
-            :param second_param: The second parameter will be used for some
-                other purpose
+            optional_param : list or None, optional
+                This parameter might be present or not. It defaults to None
 
-            :type second_param: int
-
-            :param optional_param: This parameter might be present or not. It
-                defaults to None
-
-            :type optional_param: list or None
 
             :rtype: list of ClassNameInCapWords
         """
@@ -78,9 +75,8 @@ class ClassNameInCapWords:
         """
             This methods returns the sum of public_property and b.
 
-            :param right_side: The right part of the sum
-
-            :type right_side: int
+            right_side : int
+                The right part of the sum
 
             :rtype: int
 
