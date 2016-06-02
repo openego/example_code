@@ -4,4 +4,6 @@ This is an example on how code should be documented in our project. You can buil
 `make html`
 inside the `doc/` folder.
 
-The built documentation will be available as `doc/_build/index.html` and should be readable with all common web browers.
+The built documentation will be available as `doc/_build/html/index.html` and should be readable with all common web browers.
+
+The builtin test can be run with `make doctest`.
